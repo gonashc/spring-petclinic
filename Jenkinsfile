@@ -1,5 +1,5 @@
 pipeline{
-    agent{label 'master'} -> agent{label 'SlaveUbuntu1'}
+    agent{label 'master'}->agent{label 'SlaveUbuntu1'}
     tools{
         maven 'M3'
     }
