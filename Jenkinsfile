@@ -1,5 +1,5 @@
 pipeline{
-    //agent{label 'master'}
+    agent{label 'master'}
    // agent{label 'slave1'}  
         //agent{none}
     tools{
