@@ -1,7 +1,7 @@
 pipeline{
     //agent{label 'master'}
    // agent{label 'slave1'}  
-        agent{none}
+        //agent{none}
     tools{
         maven 'M3'
     }
